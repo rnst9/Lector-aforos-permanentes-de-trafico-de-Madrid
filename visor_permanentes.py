@@ -149,8 +149,8 @@ del(catalogo, datos_descargados, estaciones, trafico1, trafico2)
 # Enviando a plotly
 # =============================================================================
 
-plotly.tools.set_credentials_file(username='catena.ecc', api_key='BM5fygTQTim53oEsc81d')
-py.sign_in('catena.ecc', 'BM5fygTQTim53oEsc81d')
+plotly.tools.set_credentials_file(username='XXX', api_key='XXX')
+py.sign_in('XXX', 'XXX')
 
 cf.set_config_file(offline=False, world_readable=True, theme='ggplot')
 trafico.iplot(kind='scatter', filename='enero-febreo media de trafico por dia')
